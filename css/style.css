@@ -110,4 +110,22 @@ input#search {
 .headerquote {
   font-family: abhayalibre;
   margin-top: 40px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .navitems {
+    display: none;
+  }
+  .headerbody h1 {
+    width: 80%;
+    font-size: 40px;
+  }
+  .headerbtn {
+    padding: 20px 40px 20px 40px;
+    font-size: 20px;
+  }
+  .navleft {
+    margin-right: 10px;
+  }
 }
