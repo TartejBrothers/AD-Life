@@ -1,0 +1,58 @@
+@font-face {
+  font-family: mediamourne;
+  src: url("/fonts/mediamourne.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+.header {
+  background-image: url("/images/home/headerhome.png");
+  background-size: cover;
+
+  background-color: black;
+}
+.headerbody h1 {
+  font-family: mediamourne;
+  color: white;
+}
+
+input#search {
+  color: #fff;
+  border-radius: 21.5px;
+  border: 1px solid #fff;
+  font-size: 16px;
+  background-color: transparent;
+  background-image: url("/images/assests/search.png");
+  background-position: 5px 5px;
+  background-repeat: no-repeat;
+  padding: 6px 20px 6px 40px;
+}
+
+.navbar {
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navleft {
+  padding-left: 20px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.navright {
+  padding-right: 20px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+
+}
+
