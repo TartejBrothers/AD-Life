@@ -1,6 +1,6 @@
 @font-face {
-  font-family: mediamourne;
-  src: url("/fonts/mediamourne.ttf");
+  font-family: mediamoure;
+  src: url("/fonts/mediamoure.ttf");
 }
 @font-face {
   font-family: abhayalibre;
@@ -36,7 +36,7 @@ body {
   background-color: black;
 }
 .headerbody h1 {
-  font-family: mediamourne;
+  font-family: mediamoure;
   color: white;
 }
 
@@ -104,7 +104,7 @@ input#search {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  font-family: mediamourne;
+  font-family: mediamoure;
   margin-bottom: 22px;
 }
 .headerbtn {
@@ -240,6 +240,7 @@ input#search {
   font-family: roboto;
   font-size: 16px;
   margin-left: 20px;
+  margin-right: 20px;
 }
 .bodymissiontextsplitter {
   width: 60%;
@@ -254,6 +255,74 @@ input#search {
   font-size: 24px;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+.volunteer {
+  background-image: url("/images/home/bodybottom.png");
+  background-color: #000;
+  display: flex;
+  color: #fff;
+  align-items: center;
+}
+.volunteer {
+  text-align: left;
+  font-family: mediamoure;
+}
+.volunteerleft h1 {
+  font-size: 120px;
+}
+.volunteerside {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+.volunteerbody {
+  font-size: 18px;
+  font-weight: 400;
+}
+.volunteerleft,
+.volunteerright {
+  display: flex;
+  flex-direction: column;
+
+  padding: 40px;
+}
+.inputfull {
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 10px;
+  color: #fff;
+}
+.inputhalf {
+  width: 40%;
+  color: #fff;
+  margin-right: 5%;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 10px;
+}
+
+.volunteerright input::placeholder {
+  color: #fff;
+  font-family: mediamoure;
+}
+.volunteerbtn {
+  margin: 10px auto 10px auto;
+  display: flex;
+  justify-content: center;
+  padding: 17px 99px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #e6222b;
+  border-radius: 19px;
+  border: none;
+  color: #fff;
+  font-family: mediamoure;
+  font-size: 20px;
 }
 @media screen and (max-width: 1000px) {
   .navitems {
@@ -293,6 +362,12 @@ input#search {
 
   .bodymission img {
     height: 120px;
+  }
+  .volunteer {
+    flex-direction: column;
+  }
+  .volunteerleft h1 {
+    font-size: 60px;
   }
 }
 
