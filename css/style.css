@@ -18,6 +18,7 @@
   font-family: opensans;
   src: url("/fonts/opensans.ttf");
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -452,7 +453,7 @@ input[type="radio"]:checked {
   align-items: center;
   gap: 10px;
 
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 .socials {
   display: flex;
@@ -481,6 +482,10 @@ input[type="radio"]:checked {
     font-size: 20px;
   }
   .navleft {
+    gap: 0px;
+    margin-right: 10px;
+  }
+  .navleft img {
     margin-right: 10px;
   }
   .headerbody p {
