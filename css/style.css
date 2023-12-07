@@ -74,7 +74,7 @@ input#search {
 .navright {
   padding-right: 20px;
   display: flex;
-  gap: 20px;
+  gap: 50px;
   align-items: center;
 }
 
@@ -240,10 +240,10 @@ input#search {
   list-style-type: none;
 }
 .bodymissiontext ul li {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   text-align: left;
   font-family: roboto;
-  font-size: 16px;
+  font-size: 15px;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -263,9 +263,13 @@ input#search {
 }
 .volunteer {
   background-image: url("/images/home/bodybottom.png");
-  background-color: #000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0%;
+
   display: flex;
   color: #fff;
+  padding: 40px 0px 40px 0px;
   align-items: center;
 }
 .volunteer {
@@ -273,7 +277,7 @@ input#search {
   font-family: mediamoure;
 }
 .volunteerleft h1 {
-  font-size: 120px;
+  font-size: 100px;
 }
 .volunteerside {
   font-size: 28px;
@@ -282,6 +286,9 @@ input#search {
 .volunteerbody {
   font-size: 18px;
   font-weight: 400;
+}
+.volunteerleft {
+  width: 40%;
 }
 .volunteerleft,
 .volunteerright {
@@ -518,6 +525,9 @@ input[type="radio"]:checked {
   .volunteerleft h1 {
     font-size: 60px;
   }
+  .volunteerleft {
+    width: 100%;
+  }
   .donation {
     flex-direction: column;
   }
@@ -543,7 +553,6 @@ input[type="radio"]:checked {
     justify-content: center;
   }
 }
-
 @media screen and (min-width: 1400px) {
   .bodymissiontext ul li {
     font-size: 22px;
