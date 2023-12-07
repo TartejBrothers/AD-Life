@@ -402,10 +402,9 @@ input[type="radio"]:checked {
   background: linear-gradient(180deg, #000 0%, #1d1e20 100%);
   color: #fff;
   font-family: opensans;
-  padding: 20px;
+  padding: 40px 20px 40px 20px;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 .footerlefthead {
   display: flex;
@@ -434,6 +433,31 @@ input[type="radio"]:checked {
 .footerrightbody {
   width: 30%;
   padding: 10px;
+  font-size: 15px;
+}
+.footerrightheader {
+  color: #e6222b;
+  font-size: 20px;
+}
+.footerrightsplitter {
+  width: 20%;
+  border: 1px solid #e6222b;
+  margin: 20px 0 20px 0;
+}
+.footer ul {
+  list-style-type: none;
+}
+.footer ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  margin-bottom: 10px;
+}
+.socials {
+  display: flex;
+  gap: 10px;
+  margin: 20px auto 20px auto;
 }
 @media screen and (max-width: 1000px) {
   .navitems {
