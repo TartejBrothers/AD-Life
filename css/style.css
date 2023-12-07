@@ -292,11 +292,10 @@ input#search {
   border: none;
   border-bottom: 1px solid #fff;
   margin-bottom: 10px;
-  color: #fff;
 }
 .inputhalf {
   width: 40%;
-  color: #fff;
+
   margin-right: 5%;
   padding: 10px;
   background-color: transparent;
@@ -304,12 +303,19 @@ input#search {
   border-bottom: 1px solid #fff;
   margin-bottom: 10px;
 }
+.volunteerright .inputhalf {
+  color: #fff;
+}
+.volunteerright .inputfull {
+  color: #fff;
+}
 
 .volunteerright input::placeholder {
   color: #fff;
   font-family: mediamoure;
 }
-.volunteerbtn {
+.volunteerbtn,
+.donationbtn {
   margin: 10px auto 10px auto;
   display: flex;
   justify-content: center;
@@ -317,13 +323,77 @@ input#search {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  background-color: #e6222b;
+
   border-radius: 19px;
   border: none;
   color: #fff;
   font-family: mediamoure;
   font-size: 20px;
 }
+.volunteerbtn {
+  background-color: #e6222b;
+}
+.logosection {
+  padding: 30px;
+  display: flex;
+  justify-content: right;
+}
+.donation {
+  background-image: url("/images/home/bodydonation.png");
+  background-color: lightgray;
+  font-family: mediamoure;
+  display: flex;
+  align-items: center;
+}
+.donation h1 {
+  color: #000;
+  font-family: mediamoure;
+  font-size: 110px;
+}
+.donationbody {
+  font-size: 18px;
+  font-weight: 400;
+}
+.donationleft,
+.donationright {
+  padding: 40px;
+}
+.radiobtn {
+  margin-left: 20px;
+  margin-right: 3px;
+  margin-top: -3px;
+}
+input[type="radio"] {
+  box-sizing: border-box;
+  appearance: none;
+  background: white;
+  outline: 2px solid #333;
+  border: 3px solid white;
+  width: 16px;
+  height: 16px;
+  border-radius: 5px;
+  vertical-align: middle;
+}
+.donationright .inputfull {
+  color: #757575;
+}
+.donationright .inputhalf {
+  color: #757575;
+}
+
+input[type="radio"]:checked {
+  background: #333;
+}
+.radiolabel {
+  font-family: mediamoure;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.33);
+}
+.donationbtn {
+  margin-top: 20px;
+  background: #1b204a;
+}
+
 @media screen and (max-width: 1000px) {
   .navitems {
     display: none;
@@ -368,6 +438,15 @@ input#search {
   }
   .volunteerleft h1 {
     font-size: 60px;
+  }
+  .donation {
+    flex-direction: column;
+  }
+  .donation h1 {
+    font-size: 60px;
+  }
+  .donationbtn {
+    padding: 20px;
   }
 }
 
