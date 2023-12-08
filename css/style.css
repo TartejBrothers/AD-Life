@@ -345,6 +345,11 @@ input#search {
 .volunteerbtn {
   background-color: #e6222b;
 }
+.qrcode {
+  text-decoration: underline;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.33);
+}
 .logosection {
   padding: 30px;
   display: flex;

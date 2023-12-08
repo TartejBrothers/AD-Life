@@ -189,7 +189,12 @@
             class="inputhalf"
           />
           <input type="number" placeholder="CVC" class="inputhalf" />
-          <input type="text" placeholder="Address" class="inputfull" />
+          <select class="inputhalf" id="currency" name="Amount">
+            <option value="" disabled selected>Amount</option>
+            <option value="usd">Dollars</option>
+            <option value="inr">Rupees</option>
+          </select>
+          <input type="text" placeholder="Address" class="inputhalf" />
           <input type="text" placeholder="State" class="inputhalf" />
           <input type="text" placeholder="Country" class="inputhalf" />
           <input type="text" placeholder="City" class="inputhalf" />
@@ -201,6 +206,7 @@
           >
           <br />
           <button class="donationbtn">Complete Payment</button>
+          <p class="qrcode">or Donate using QR Code</p>
         </form>
       </div>
     </div>
