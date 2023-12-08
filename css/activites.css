@@ -1,4 +1,3 @@
-
 .headerbody {
   display: flex;
   flex-direction: column;
@@ -44,9 +43,12 @@
   border: 1px solid #e6222b;
 }
 .helpbody {
+  margin-top: 20px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  width: 60%;
+  max-width: 500px;
+  align-items: flex-start;
 }
 .help h1 {
   font-family: lora;
@@ -69,7 +71,7 @@
   width: 35%;
   display: flex;
   flex-direction: column;
-  justify-content: flex;
+  justify-content: flex-start;
   align-items: center;
 }
 .helpbodychild img {
@@ -81,12 +83,38 @@
   font-size: 10px;
   text-align: center;
 }
+
+.education {
+  display: flex;
+  flex-direction: column;
+  font-family: mediamoure;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0px 40px 0px;
+}
+.education h1 {
+  font-size: 96px;
+  margin-bottom: 40px;
+}
+.education p {
+  font-size: 22px;
+  padding: 0px 50px 0px 50px;
+  margin-bottom: 20px;
+}
 @media screen and (max-width: 1000px) {
   .navitems {
     display: none;
   }
-  
+
   .activities h1 {
     font-size: 60px;
+  }
+  .education h1 {
+    font-size: 60px;
+  }
+  .help h1 {
+    font-size: 40px;
+    width: 80%;
+    text-align: center;
   }
 }
