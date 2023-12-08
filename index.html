@@ -20,8 +20,24 @@
 
           <a href="contact.html" class="navitems">Contact Us</a>
           <a href="volunteer.html" class="navitems">Volunteer</a>
-          <img src="images/assests/grip.png" alt="menu" />
+          <img
+            src="images/assests/grip.png"
+            alt="menu"
+            id="menu-button"
+            onclick="toggleMenu()"
+          />
         </div>
+      </div>
+      <div id="dropdown-menu">
+        <div id="close-button" onclick="toggleMenu()">
+          <img src="images/assests/close.png" alt="close" />
+        </div>
+        <div class="dropdownbody">
+          <a href="activites.html" class="menu-item"><h5>Activities</h5></a>
+        </div>
+        <a href="#" class="menu-item">Item 1</a>
+        <a href="#" class="menu-item">Item 2</a>
+        <a href="#" class="menu-item">Item 3</a>
       </div>
       <hr class="splitter" />
       <div class="headerbody">
