@@ -183,7 +183,24 @@ input#search {
 #close-button img {
   height: 25px;
 }
+.inputfull {
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 10px;
+}
+.inputhalf {
+  width: 40%;
 
+  margin-right: 5%;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 10px;
+}
 .footer {
   background: linear-gradient(180deg, #000 0%, #1d1e20 100%);
   color: #fff;
