@@ -201,6 +201,11 @@ input#search {
   border-bottom: 1px solid #fff;
   margin-bottom: 10px;
 }
+.fullwidth {
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 60px;
+}
 .footer {
   background: linear-gradient(180deg, #000 0%, #1d1e20 100%);
   color: #fff;

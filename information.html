@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Information</title>
+    <link rel="stylesheet" href="css/information.css" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="icon" type="image/x-icon" href="/images/assests/logo.png" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="navbar">
+        <div class="navleft">
+          <img src="images/assests/logo.png" alt="logo" />
+          <input type="text" id="search" />
+        </div>
+        <div class="navright">
+          <a href="index.html" class="navitems">Home</a>
+
+          <a href="contact.html" class="navitems">Contact Us</a>
+          <a href="volunteer.html" class="navitems">Volunteer</a>
+          <img
+            src="images/assests/gripblack.png"
+            alt="menu"
+            id="menu-button"
+            onclick="toggleMenu()"
+          />
+        </div>
+      </div>
+      <div id="dropdown-menu">
+        <div id="close-button">
+          <img
+            src="images/assests/close.png"
+            alt="close"
+            onclick="toggleMenu()"
+          />
+        </div>
+        <div class="dropdownbody">
+          <a href="activites.html" class="menu-item"><h5>Activities</h5></a>
+          <ul>
+            <li>Education</li>
+            <li>Health</li>
+            <li>Livelihoods</li>
+            <li>Research and documentation</li>
+          </ul>
+        </div>
+        <div class="dropdownbody">
+          <a href="#" class="menu-item"><h5>Information</h5></a>
+          <ul>
+            <li>Registration</li>
+            <li>Trustees Profile</li>
+            <li>Advisors Profile</li>
+          </ul>
+        </div>
+        <div class="dropdownbody">
+          <a href="#" class="menu-item"><h5>Contribute</h5></a>
+          <ul>
+            <li>Volunteering with us</li>
+            <li>Donation</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+        <div class="dropdownbody">
+          <a href="mentees.html" class="menu-item"
+            ><h5>Mentorship Program</h5></a
+          >
+        </div>
+      </div>
+      <hr class="splitter" />
+    </div>
+
+    <div class="informationheader">
+      <h1>Information</h1>
+      <div class="informationside">Registration</div>
+      <p>
+        The trust is registered under the
+        <font color="#E6222b">Indian Trusts Act, 1882</font> with Sub-Registrar
+        at Kengeri, Bangalore since January 3rd, 2005.
+      </p>
+    </div>
+    <div class="informationbody">
+      <h1>Trustees Profile</h1>
+      <p>
+        <font color="#E6222b">K Dolly, an XIM Bhubaneswar graduate,</font>
+        brings nearly two decades of experience in project and stakeholder
+        management within the development sector. Leading projects funded by
+        entities like the Government of India, Government of Andhra Pradesh,
+        Bill & Melinda Gates Foundation, and DFID (UK), she excels in Strategic
+        Planning, Concept Marketing, Programme Management, and Fund Raising.
+      </p>
+      <p>
+        <font color="#E6222b">Ajay Reddy, a dynamic commerce graduate,</font> is
+        deeply empathetic to farmers, tribals, and women's issues. From a young
+        age, he has actively addressed tribal concerns, providing scholarships
+        and mobilizing funds for health emergencies. As a former project
+        coordinator at HLFPPT, he focused on skill development and social
+        franchising, showcasing his motivational and mobilization skills,
+        notably forming a team of 300 tribal youth in Telangana.
+      </p>
+    </div>
+    <img
+      src="images/information/trustees.png"
+      alt="trustees"
+      class="fullwidth"
+    />
+    <div class="footer">
+      <div class="footerleft">
+        <div class="footerlefthead">
+          <img src="images/assests/logo.png" alt="logo" />
+          <h1>AD LIFE</h1>
+        </div>
+        <div class="footerleftside"><p>ADDING VALUE TO LIFE</p></div>
+        <div class="footerleftbody">
+          <p>
+            Our trust is registered under the Indian Trusts Act, 1882 with
+            Sub-Registrar at Kengeri, Bangalore since January 3rd, 2005.
+          </p>
+        </div>
+      </div>
+      <div class="footerright">
+        <div class="footerrightbody">
+          <div class="footerrightheader">WHO WE ARE</div>
+          <hr class="footerrightsplitter" />
+          <ul>
+            <li>> Homepage</li>
+            <li>> Activities</li>
+            <li>> Information</li>
+            <li>> Contribute Now</li>
+            <li>> Contact</li>
+          </ul>
+        </div>
+        <div class="footerrightbody">
+          <div class="footerrightheader">WHERE WE WORK</div>
+          <hr class="footerrightsplitter" />
+          <ul>
+            <li>
+              <img src="images/assests/map.png" alt="map" />B-803, 10-3-163/1
+              Amri Central Court Apartments Old Lance Lines , Secunderabad -
+              500025
+            </li>
+            <li>
+              <img src="images/assests/phone.png" alt="phone" />+91-9505051521
+            </li>
+
+            <li>
+              <img
+                src="images/assests/mail.png"
+                alt="mail"
+              />adlife.trust@addlifegroup.com
+            </li>
+          </ul>
+        </div>
+        <div class="footerrightbody">
+          <div class="footerrightheader">FOLLOW US</div>
+          <hr class="footerrightsplitter" />
+          <p>
+            For more Regular updates and event announcements. Make sure to
+            follow us:
+          </p>
+          <div class="socials">
+            <img src="images/assests/fb.png" alt="facebook" />
+            <img src="images/assests/insta.png" alt="instagram" />
+            <img src="images/assests/twitter.png" alt="twitter" />
+            <img src="images/assests/yt.png" alt="youtube" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">Copyright 2023 © AD Life Trust.</div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
