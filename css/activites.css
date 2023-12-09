@@ -101,6 +101,30 @@
   padding: 0px 50px 0px 50px;
   margin-bottom: 20px;
 }
+.health {
+  background-color: #f2f1f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0px 60px 0px;
+  text-align: left;
+  font-family: mediamoure;
+}
+.health h1 {
+  font-size: 96px;
+  margin-bottom: 40px;
+}
+.health p {
+  font-size: 22px;
+  padding: 0px 50px 20px 50px;
+  margin-bottom: 20px;
+}
+.activitysplitter {
+  width: 80%;
+  margin: 0px auto 0px auto;
+  border: 1px solid #e6222b;
+}
 @media screen and (max-width: 1000px) {
   .navitems {
     display: none;
