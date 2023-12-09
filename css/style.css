@@ -242,24 +242,7 @@ input#search {
 
   padding: 40px;
 }
-.inputfull {
-  width: 100%;
-  padding: 10px;
-  background-color: transparent;
-  border: none;
-  border-bottom: 1px solid #fff;
-  margin-bottom: 10px;
-}
-.inputhalf {
-  width: 40%;
 
-  margin-right: 5%;
-  padding: 10px;
-  background-color: transparent;
-  border: none;
-  border-bottom: 1px solid #fff;
-  margin-bottom: 10px;
-}
 .volunteerright .inputhalf {
   color: #fff;
 }
@@ -408,7 +391,6 @@ input[type="radio"]:checked {
   .donationbtn {
     padding: 20px;
   }
-  
 }
 @media screen and (min-width: 1400px) {
   .bodymissiontext ul li {
