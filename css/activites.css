@@ -84,25 +84,10 @@
   text-align: center;
 }
 
-.education {
-  display: flex;
-  flex-direction: column;
-  font-family: mediamoure;
-  justify-content: center;
-  align-items: center;
-  padding: 60px 0px 40px 0px;
-}
-.education h1 {
-  font-size: 96px;
-  margin-bottom: 40px;
-}
-.education p {
-  font-size: 22px;
-  padding: 0px 50px 0px 50px;
-  margin-bottom: 20px;
-}
-.health {
+#activitygrey {
   background-color: #f2f1f1;
+}
+.activitybody {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -111,11 +96,12 @@
   text-align: left;
   font-family: mediamoure;
 }
-.health h1 {
+.activitybody h1 {
   font-size: 96px;
+  text-align: center;
   margin-bottom: 40px;
 }
-.health p {
+.activitybody p {
   font-size: 22px;
   padding: 0px 50px 20px 50px;
   margin-bottom: 20px;
@@ -125,6 +111,24 @@
   margin: 0px auto 0px auto;
   border: 1px solid #e6222b;
 }
+.donate {
+  display: flex;
+  flex-direction: column;
+}
+.donatebottom {
+  background-color: #1b204a;
+  color: white;
+  padding: 25px 40px;
+  border-radius: 25px;
+  font-size: 24px;
+  font-family: mediamoure;
+  border: none;
+  margin: 20px auto 20px auto;
+}
+.donate img {
+  margin: 20px 30px 20px auto;
+  height: 30px;
+}
 @media screen and (max-width: 1000px) {
   .navitems {
     display: none;
@@ -133,8 +137,8 @@
   .activities h1 {
     font-size: 60px;
   }
-  .education h1 {
-    font-size: 60px;
+  .activitybody h1 {
+    font-size: 40px;
   }
   .help h1 {
     font-size: 40px;
