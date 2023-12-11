@@ -125,6 +125,10 @@
   border: none;
   margin: 20px auto 20px auto;
 }
+.donate a {
+  width: fit-content;
+  margin: 0px auto 0px auto;
+}
 .donate img {
   margin: 20px 30px 20px auto;
   height: 30px;
