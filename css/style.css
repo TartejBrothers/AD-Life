@@ -108,7 +108,10 @@ input#search {
   color: #fff;
   padding: 100px 0px 100px 0px;
 }
-
+.quotebody {
+  font-family: abhayalibre;
+  width: 40%;
+}
 .quoteheader {
   font-family: abhayalibre;
   font-size: 40px;
@@ -357,6 +360,9 @@ input[type="radio"]:checked {
   }
   .bodytopsplitter {
     width: 20%;
+  }
+  .quotebody {
+    width: 80%;
   }
   .quotes {
     flex-direction: column;
