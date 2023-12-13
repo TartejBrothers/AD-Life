@@ -63,14 +63,15 @@
 .menteesformbody p,
 .mentorsformbody p {
   font-size: 20px;
-  text-align: center;
+
   margin: 0px auto 40px auto;
 }
 .menteesformbodyleft {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+
   align-items: center;
+  text-align: left;
   width: 40%;
   height: 100%;
 }
