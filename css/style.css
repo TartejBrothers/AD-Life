@@ -343,6 +343,10 @@ input[type="radio"]:checked {
 }
 
 @media screen and (max-width: 1000px) {
+  .header {
+    background-image: url("/images/home/headermobile.png");
+    background-position: -230px;
+  }
   .headerbody h1 {
     width: 80%;
     font-size: 40px;
