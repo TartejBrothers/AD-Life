@@ -124,12 +124,12 @@ input#search {
     height: 0;
   }
   to {
-    height: 750px;
+    height: 560px;
   }
 }
 @keyframes slideOut {
   from {
-    height: 750px;
+    height: 560px;
   }
   to {
     height: 0;
