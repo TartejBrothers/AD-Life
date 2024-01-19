@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activites</title>
+    <link rel="stylesheet" href="../static/css/activites.css" />
+    <link rel="stylesheet" href="../static/css/global.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/../static/images/assests/logo.png"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="navbar">
+        <div class="navleft">
+          <img src="../static/images/assests/logo.png" alt="logo" />
+          <input type="text" id="search" />
+        </div>
+        <div class="navright">
+          <a href="index.html" class="navitems">Home</a>
+
+          <a href="#contact" class="navitems">Contact Us</a>
+          <a href="index.html#volunteer" class="navitems">Volunteer</a>
+          <img
+            src="../static/images/assests/gripblack.png"
+            alt="menu"
+            id="menu-button"
+            onclick="toggleMenu()"
+          />
+        </div>
+      </div>
+      <div id="dropdown-menu">
+        <div id="close-button">
+          <img
+            src="../static/images/assests/close.png"
+            alt="close"
+            onclick="toggleMenu()"
+          />
+        </div>
+        <div class="dropdownbody" id="mobileview">
+          <a href="index.html" class="menu-item"><h5>Home</h5></a>
+        </div>
+        <div class="dropdownbody" id="mobileview">
+          <a href="#contact" class="menu-item"><h5>Contact Us</h5></a>
+        </div>
+        <div class="dropdownbody" id="mobileview">
+          <a href="index.html#volunteer" class="menu-item"
+            ><h5>Volunteer</h5></a
+          >
+        </div>
+        <div class="dropdownbody">
+          <a href="activites.html" class="menu-item"><h5>Activities</h5></a>
+          <ul>
+            <li>Education</li>
+            <li>Health</li>
+            <li>Livelihoods</li>
+            <li>Research and documentation</li>
+          </ul>
+        </div>
+        <div class="dropdownbody">
+          <a href="information.html" class="menu-item"><h5>Information</h5></a>
+          <ul>
+            <li>Registration</li>
+            <li>Trustees Profile</li>
+            <li>Advisors Profile</li>
+          </ul>
+        </div>
+
+        <div class="dropdownbody">
+          <a href="mentees.html" class="menu-item"
+            ><h5>Mentorship Program</h5></a
+          >
+        </div>
+      </div>
+      <hr class="splitter" />
+    </div>
+    <div class="activities">
+      <h1>Activities</h1>
+      <p>
+        AD Life Trust focuses on empowering individuals through health
+        improvement, education, and livelihood development. We prioritize
+        vulnerable populations, offering health camps, counseling, and
+        nutritional support. The trust supports higher education for
+        economically weak girls and preserves traditional knowledge.
+      </p>
+      <p>
+        Livelihood development, particularly for women, involves skill training
+        and creating market linkages for sustainable incomes. We emphasize
+        evidence-based work, conducting monitoring and evaluation for project
+        effectiveness and supporting academic research with policy impact
+        potential.
+      </p>
+    </div>
+    <img
+      src="../static/images/activities/top.png"
+      alt="top"
+      class="fullwidth"
+    />
+    <div class="help">
+      <h1>We <font color="#E6222B">Need</font> Your Help</h1>
+
+      <hr class="helpsplitter" />
+      <p>
+        “Creating a difference in the lives of people, by helping people to help
+        themselves”
+      </p>
+      <div class="helpbody">
+        <div class="helpbodychild">
+          <img src="../static/images/assests/education.png" alt="education" />
+          <p>Education</p>
+        </div>
+        <div class="helpbodychild">
+          <img src="../static/images/assests/health.png" alt="education" />
+          <p>Health</p>
+        </div>
+        <div class="helpbodychild">
+          <img src="../static/images/assests/livelihoods.png" alt="education" />
+          <p>Livelihoods</p>
+        </div>
+        <div class="helpbodychild">
+          <img src="../static/images/assests/research.png" alt="education" />
+          <p>Research and Documentation</p>
+        </div>
+      </div>
+    </div>
+    <div class="activitybody">
+      <h1>Education</h1>
+      <p>
+        AD Life Trust is dedicated to
+        <font color="#E6222B"
+          >transforming the lives of vulnerable children, particularly those
+          born to sex workers.</font
+        >
+        Facing challenges such as higher infant mortality and difficulty
+        accessing education due to societal stigma, these children often
+        struggle for opportunities. The trust has supported 12 children through
+        bachelor's degrees, <font color="#E6222B">breaking</font> the cycle of
+        adversity and instilling confidence in their dreams.
+      </p>
+
+      <p>
+        Addressing gender biases in education, AD Life Trust sponsored the
+        initial fees for a deserving young woman pursuing a Ph.D., exemplifying
+        its commitment to empowering individuals. The sponsored individual's
+        success story, securing a higher-paying job aligned with her research,
+        highlights the trust's philosophy of
+        <font color="#E6222B">enabling self-sufficiency.</font>
+      </p>
+
+      <img
+        src="../static/images/activities/education.png"
+        alt="education"
+        class="fullwidth"
+      />
+      <p>
+        In recognition of broader educational challenges in India, AD Life Trust
+        partnered with <font color="#E6222B">Veda Vedanta Gurukula</font>
+        Mahavidyalaya, Guntur. Financial support preserves traditional
+        knowledge, Sanskrit language, and fosters higher education in Vedic
+        studies while integrating modern education. AD Life Trust remains
+        dedicated to
+        <font color="#E6222B"
+          >holistic education, preserving cultural heritage, and empowering
+          individuals for a brighter future</font
+        >
+      </p>
+    </div>
+    <hr class="activitysplitter" />
+    <div class="activitybody" id="activitygrey">
+      <h1>Health</h1>
+      <p>
+        <font color="#E6222B">Ensuring good health</font> is pivotal for a
+        fulfilling life, yet India grapples with widespread health issues,
+        including malnutrition, infant, and maternal mortality. Despite
+        constitutional guarantees for free healthcare, over 70% of health
+        expenses are borne by individuals, creating a significant financial
+        burden.
+      </p>
+      <p>
+        Recognizing this challenge, AD Life has focused its efforts on
+        healthcare, particularly targeting tribal populations,
+        <font color="#E6222B"
+          >constituting 7.95% of India's total population</font
+        >. Working in Telangana, AD Life has provided essential health services
+        to <font color="#E6222B">25,000 tribal individuals,</font> collaborating
+        with local gram panchayats in <font color="#E6222B">30 villages</font>.
+        Medical camps facilitated access to general physicians, cardiologists,
+        pediatricians, and gynecologists, benefitting
+        <font color="#E6222B">9,467 tribal members</font>. Eye and dental camps
+        further addressed specific health needs.
+      </p>
+      <img
+        src="../static/images/activities/health.png"
+        alt="health"
+        class="fullwidth"
+      />
+      <p>
+        Additionally,
+        <font color="#E6222B">AD Life prioritizes community well-being</font> by
+        employing and training four counselors who have supported 350 families
+        in health-related matters, emphasizing government health services,
+        HIV/AIDS counseling, and nutrition. In response to the COVID-19
+        pandemic, AD Life extended its support by actively participating in
+        <font color="#E6222B">track and trace activities for four months</font>.
+        We collected and compiled data for relevant national public health
+        authorities, showcasing a proactive approach to community health.
+      </p>
+      <p>
+        Further demonstrating our commitment, AD Life provided essential medical
+        assistance to those adversely affected by the pandemic-induced lockdown,
+        contributing to the overall welfare of the community.
+      </p>
+    </div>
+    <hr class="activitysplitter" />
+    <div class="activitybody">
+      <h1>Livelihoods</h1>
+      <p>
+        AD Life Trust is deeply committed to enhancing livelihoods through skill
+        development programs, with a focus on empowering suburban women. Over
+        <font color="#E6222B"
+          >30 batches, comprising 10 women each, were trained in Akiveedu</font
+        >, West Godavari district, mastering skills such as tailoring,
+        embroidery, and handicraft making. Through its affiliated, AD Life
+        Projects Pvt. Ltd., AD Life Trust established a transformative
+        partnership with
+        <font color="#E6222B">Brandix India Apparel City</font>, providing
+        training for women in garment manufacturing. This collaboration led to
+        successful placements in various apparel units, aligning with industry
+        needs. With a 3000 square feet training center, AD Life Trust has
+        supported the program with experienced
+        <font color="#E6222B"
+          >trainers, covering essential skills and holistic development.</font
+        >
+      </p>
+      <img
+        src="../static/images/activities/livelihood.png"
+        alt="livelihood"
+        class="fullwidth"
+      />
+      <p>
+        In tandem, AD Life Trust
+        <font color="#E6222B">extended its impact in Vizag district,</font>
+        collaborating with <font color="#E6222B">APSSDC</font> to provide
+        training and placements in apparel, retailing, hospitality, and
+        logistics sectors. Over 60 women received training in sewing skills,
+        <font color="#E6222B">with the provision of sewing machines</font> for
+        sustainability.
+      </p>
+      <p>
+        The organization's commitment to social impact is further evidenced
+        through its collaboration with
+        <font color="#E6222B">Save the Children/CWS</font>, implementing the
+        Refugees Project in Urban Hyderabad. Despite pandemic challenges, the
+        team successfully executed trainings, formed production groups, and
+        facilitated the sale of market-ready products.
+      </p>
+      <p>
+        External evaluations underscore the project's success, with positive
+        outcomes for <font color="#E6222B">Persons of Concern (PoCs)</font> in
+        terms of skill acquisition, business improvement, and increased
+        earnings, exemplifying AD Life Trust's dedication to fostering
+        sustainable livelihoods and community empowerment
+      </p>
+    </div>
+    <hr class="activitysplitter" />
+    <div class="activitybody">
+      <h1>Research and Documentation</h1>
+      <p>
+        AD Life Trust's rapid assessment of the Swacchanda Arogya Nestams (SANs)
+        program in Kamareddy district highlights its success in enhancing access
+        to government hospital services. The program, initiated in 2017,
+        effectively provides patients with information, reducing waiting times
+        and inquiry loads while improving hospital atmospheres.
+      </p>
+      <p>
+        Volunteers involved in SANs report a sense of purpose and service. The
+        assessment identifies areas for improvement with minimal intervention.
+        Additionally, under research and documentation initiatives, AD Life
+        conducts assessments for development solutions, partnering with leading
+        researchers in India and abroad.
+      </p>
+      <img
+        src="../static/images/activities/research.png"
+        alt="research"
+        class="fullwidth"
+      />
+      <p>
+        The organization believes in leveraging data and research to design more
+        effective interventions, such as understanding tribal consumption
+        behavior and promoting nutritious indigenous food choices. This critical
+        work contributes to informed decision-making by NGOs and policymakers.
+      </p>
+    </div>
+    <hr class="activitysplitter" />
+    <div class="donate">
+      <a href="index.html#donation"
+        ><button class="donatebottom">Donate Now</button></a
+      >
+      <img src="../static/images/assests/logo.png" alt="logo" />
+    </div>
+    <div class="footer" id="contact">
+      <div class="footerleft">
+        <div class="footerlefthead">
+          <img src="../static/images/assests/logofooter.png" alt="logo" />
+          <h1>AD LIFE</h1>
+        </div>
+        <div class="footerleftside"><p>ADDING VALUE TO LIFE</p></div>
+        <div class="footerleftbody">
+          <p>
+            Our trust is registered under the Indian Trusts Act, 1882 with
+            Sub-Registrar at Kengeri, Bangalore since January 3rd, 2005.
+          </p>
+        </div>
+      </div>
+      <div class="footerright">
+        <div class="footerrightbody">
+          <div class="footerrightheader">WHO WE ARE</div>
+          <hr class="footerrightsplitter" />
+          <ul>
+            <a href="index.html"><li>> Homepage</li></a>
+            <a href="activites.html"><li>> Activities</li></a>
+            <a href="information.html"><li>> Information</li></a>
+            <a href="mentees.html"><li>> Contribute Now</li></a>
+            <a href="#contact"><li>> Contact</li></a>
+          </ul>
+        </div>
+        <div class="footerrightbody">
+          <div class="footerrightheader">WHERE WE WORK</div>
+          <hr class="footerrightsplitter" />
+          <ul>
+            <li>
+              <img src="../static/images/assests/map.png" alt="map" />B-803,
+              10-3-163/1 Amri Central Court Apartments Old Lance Lines ,
+              Secunderabad - 500025
+            </li>
+            <li>
+              <img
+                src="../static/images/assests/phone.png"
+                alt="phone"
+              />+91-9505051521
+            </li>
+
+            <li>
+              <img
+                src="../static/images/assests/mail.png"
+                alt="mail"
+              />adlife.trust@addlifegroup.com
+            </li>
+          </ul>
+        </div>
+        <div class="footerrightbody">
+          <div class="footerrightheader">FOLLOW US</div>
+          <hr class="footerrightsplitter" />
+          <p>
+            For more Regular updates and event announcements. Make sure to
+            follow us:
+          </p>
+          <div class="socials">
+            <img src="../static/images/assests/fb.png" alt="facebook" />
+            <img src="../static/images/assests/insta.png" alt="instagram" />
+            <img src="../static/images/assests/twitter.png" alt="twitter" />
+            <img src="../static/images/assests/yt.png" alt="youtube" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">Copyright 2023 © AD Life Trust.</div>
+    <script src="../static/js/script.js"></script>
+  </body>
+</html>

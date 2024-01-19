@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mentees</title>
+    <link rel="stylesheet" href="../static/css/mentees.css" />
+    <link rel="stylesheet" href="../static/css/global.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/../static/images/assests/logo.png"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="navbar">
+        <div class="navleft">
+          <img src="../static/images/assests/logo.png" alt="logo" />
+          <input type="text" id="search" />
+        </div>
+        <div class="navright">
+          <a href="index.html" class="navitems">Home</a>
+
+          <a href="#contact" class="navitems">Contact Us</a>
+          <a href="index.html#volunteer" class="navitems">Volunteer</a>
+          <img
+            src="../static/images/assests/gripblack.png"
+            alt="menu"
+            id="menu-button"
+            onclick="toggleMenu()"
+          />
+        </div>
+      </div>
+      <div id="dropdown-menu">
+        <div id="close-button">
+          <img
+            src="../static/images/assests/close.png"
+            alt="close"
+            onclick="toggleMenu()"
+          />
+        </div>
+        <div class="dropdownbody" id="mobileview">
+          <a href="index.html" class="menu-item"><h5>Home</h5></a>
+        </div>
+        <div class="dropdownbody" id="mobileview">
+          <a href="#contact" class="menu-item"><h5>Contact Us</h5></a>
+        </div>
+        <div class="dropdownbody" id="mobileview">
+          <a href="index.html#volunteer" class="menu-item"
+            ><h5>Volunteer</h5></a
+          >
+        </div>
+        <div class="dropdownbody">
+          <a href="activites.html" class="menu-item"><h5>Activities</h5></a>
+          <ul>
+            <li>Education</li>
+            <li>Health</li>
+            <li>Livelihoods</li>
+            <li>Research and documentation</li>
+          </ul>
+        </div>
+        <div class="dropdownbody">
+          <a href="information.html" class="menu-item"><h5>Information</h5></a>
+          <ul>
+            <li>Registration</li>
+            <li>Trustees Profile</li>
+            <li>Advisors Profile</li>
+          </ul>
+        </div>
+
+        <div class="dropdownbody">
+          <a href="mentees.html" class="menu-item"
+            ><h5>Mentorship Program</h5></a
+          >
+        </div>
+      </div>
+      <hr class="splitter" />
+    </div>
+    <div class="menteesbody">
+      <h1>Join Our Mentorship Community</h1>
+      <p>
+        Ready to be part of our Mentorship Community? Apply now to become a
+        mentor or mentee and contribute to a culture of knowledge sharing and
+        growth. Together, we can build a brighter future.
+      </p>
+    </div>
+    <div class="menteesform">
+      <div class="switchbuttons">
+        <div
+          class="menteesbutton"
+          onclick="changemenumentees()"
+          id="buttonmentees"
+        >
+          <p>Mentees</p>
+        </div>
+        <div
+          class="mentorsbutton"
+          onclick="changemenumentors()"
+          id="buttonmentors"
+        >
+          <p>Mentors</p>
+        </div>
+      </div>
+      <div class="menteesformbody" id="mentees">
+        <div class="menteesmain">
+          <div class="menteesformbodyleft">
+            <h1>Mentees</h1>
+            <p>
+              Are you ready to learn, grow, and achieve your dreams? Join AD
+              life as a mentee and gain access to a network of experienced
+              mentors who are dedicated to your success.
+            </p>
+            <p>
+              Whether you're a student, a budding entrepreneur, or someone
+              seeking personal development, our Mentorship Community is here to
+              support your journey.
+            </p>
+          </div>
+          <div class="menteesformbodyright">
+            <form>
+              <input type="text" placeholder="First Name" class="inputhalf" />
+              <input type="text" placeholder="Last Name" class="inputhalf" />
+              <input
+                type="text"
+                placeholder="Mobile Number"
+                class="inputhalf"
+              />
+              <input type="number" placeholder="Age" class="inputhalf" />
+              <input type="text" placeholder="Address" class="inputfull" />
+              <input
+                type="text"
+                placeholder="Area Of Interest"
+                class="inputfull"
+              />
+              <input type="text" placeholder="E-Mail" class="inputfull" />
+
+              <input type="text" placeholder="Citizen" class="inputhalf" />
+              <br />
+              <button class="submitbtn">Submit</button>
+            </form>
+          </div>
+        </div>
+        <div class="menteesformlogo">
+          <img src="../static/images/assests/logo.png" alt="logo" />
+        </div>
+      </div>
+      <div class="mentorsformbody" id="mentors">
+        <div class="menteesmain">
+          <div class="menteesformbodyleft">
+            <h1>Mentors</h1>
+            <p>
+              Are you an expert in your field? A seasoned professional? Your
+              knowledge is invaluable, and your guidance can shape the future.
+              Become a mentor at AD life and inspire the next generation.
+            </p>
+            <p>
+              Share your experiences, offer insights, and be a catalyst for
+              success. Together, we can create a community that thrives on
+              mentorship.
+            </p>
+          </div>
+          <div class="menteesformbodyright">
+            <form>
+              <input type="text" placeholder="First Name" class="inputhalf" />
+              <input type="text" placeholder="Last Name" class="inputhalf" />
+              <input
+                type="text"
+                placeholder="Mobile Number"
+                class="inputhalf"
+              />
+              <input type="number" placeholder="Age" class="inputhalf" />
+              <input type="text" placeholder="Address" class="inputfull" />
+              <input
+                type="text"
+                placeholder="Area Of Interest"
+                class="inputfull"
+              />
+              <input type="text" placeholder="E-Mail" class="inputfull" />
+
+              <input type="text" placeholder="Citizen" class="inputhalf" />
+              <br />
+              <button class="submitbtn">Submit</button>
+            </form>
+          </div>
+        </div>
+        <div class="menteesformlogo">
+          <img src="../static/images/assests/logo.png" alt="logo" />
+        </div>
+      </div>
+    </div>
+    <div class="footer" id="contact">
+      <div class="footerleft">
+        <div class="footerlefthead">
+          <img src="../static/images/assests/logofooter.png" alt="logo" />
+          <h1>AD LIFE</h1>
+        </div>
+        <div class="footerleftside"><p>ADDING VALUE TO LIFE</p></div>
+        <div class="footerleftbody">
+          <p>
+            Our trust is registered under the Indian Trusts Act, 1882 with
+            Sub-Registrar at Kengeri, Bangalore since January 3rd, 2005.
+          </p>
+        </div>
+      </div>
+      <div class="footerright">
+        <div class="footerrightbody">
+          <div class="footerrightheader">WHO WE ARE</div>
+          <hr class="footerrightsplitter" />
+          <ul>
+            <a href="index.html"><li>> Homepage</li></a>
+            <a href="activites.html"><li>> Activities</li></a>
+            <a href="information.html"><li>> Information</li></a>
+            <a href="mentees.html"><li>> Contribute Now</li></a>
+            <a href="#contact"><li>> Contact</li></a>
+          </ul>
+        </div>
+        <div class="footerrightbody">
+          <div class="footerrightheader">WHERE WE WORK</div>
+          <hr class="footerrightsplitter" />
+          <ul>
+            <li>
+              <img src="../static/images/assests/map.png" alt="map" />B-803,
+              10-3-163/1 Amri Central Court Apartments Old Lance Lines ,
+              Secunderabad - 500025
+            </li>
+            <li>
+              <img
+                src="../static/images/assests/phone.png"
+                alt="phone"
+              />+91-9505051521
+            </li>
+
+            <li>
+              <img
+                src="../static/images/assests/mail.png"
+                alt="mail"
+              />adlife.trust@addlifegroup.com
+            </li>
+          </ul>
+        </div>
+        <div class="footerrightbody">
+          <div class="footerrightheader">FOLLOW US</div>
+          <hr class="footerrightsplitter" />
+          <p>
+            For more Regular updates and event announcements. Make sure to
+            follow us:
+          </p>
+          <div class="socials">
+            <img src="../static/images/assests/fb.png" alt="facebook" />
+            <img src="../static/images/assests/insta.png" alt="instagram" />
+            <img src="../static/images/assests/twitter.png" alt="twitter" />
+            <img src="../static/images/assests/yt.png" alt="youtube" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">Copyright 2023 © AD Life Trust.</div>
+    <script src="../static/js/script.js"></script>
+  </body>
+</html>
