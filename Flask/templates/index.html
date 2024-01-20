@@ -198,9 +198,23 @@
         </p>
       </div>
       <div class="volunteerright">
-        <form>
-          <input type="text" placeholder="First Name" class="inputhalf" />
-          <input type="text" placeholder="Last Name" class="inputhalf" />
+        <form name="formhome">
+          <input
+            type="text"
+            placeholder="First Name"
+            class="inputhalf"
+            name="firstname"
+            pattern="[A-Za-z]+"
+            title="Enter only alphabets"
+          />
+          <input
+            type="text"
+            placeholder="Last Name"
+            class="inputhalf"
+            name="lastname"
+            pattern="[A-Za-z]+"
+            title="Enter only alphabets"
+          />
           <input type="text" placeholder="Mobile Number" class="inputhalf" />
           <input type="number" placeholder="Age" class="inputhalf" />
           <input type="text" placeholder="Address" class="inputfull" />
@@ -235,7 +249,13 @@
       <div class="donationright">
         <form>
           <input type="text" placeholder="E-Mail" class="inputfull" />
-          <input type="text" placeholder="Name On Card" class="inputfull" />
+          <input
+            type="text"
+            placeholder="Name On Card"
+            class="inputfull"
+            pattern="[A-Za-z]+"
+            title="Enter only alphabets"
+          />
           <input type="number" placeholder="Card Number" class="inputfull" />
           <input
             type="text"
