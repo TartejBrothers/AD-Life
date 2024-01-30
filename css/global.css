@@ -21,6 +21,26 @@
 html {
   scroll-behavior: smooth;
 }
+.search-container {
+  width: 200px;
+}
+#searchResults {
+  margin-top: 10px;
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  display: none;
+  position: absolute;
+}
+
+#searchResults .close-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -335,6 +355,16 @@ input#search {
     width: 100%;
   }
   .socials {
+    justify-content: center;
+  }
+  .search-container {
+    width: 130px;
+  }
+  .navbar {
+    justify-content: space-around;
+    padding: 20px 0px;
+  }
+  .navleft {
     justify-content: center;
   }
 }

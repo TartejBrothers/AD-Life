@@ -36,3 +36,34 @@ function changemenumentors() {
   menteesbutton.style.backgroundColor = "#fff";
   menteesbutton.style.color = "#1B204A";
 }
+
+function search() {
+  var searchTerm = document.getElementById("search").value.toLowerCase();
+  var resultsContainer = document.getElementById("searchResults");
+  resultsContainer.innerHTML = "";
+
+  var searchableElements = document.querySelectorAll(".searchable");
+  var hasResults = false;
+
+  searchableElements.forEach(function (element) {
+    var content = element.textContent.toLowerCase();
+
+    if (content.includes(searchTerm)) {
+      var resultItem = document.createElement("div");
+      resultItem.textContent = content;
+      resultsContainer.appendChild(resultItem);
+      hasResults = true;
+    }
+  });
+  resultsContainer.style.display = hasResults ? "block" : "none";
+  resultsContainer.innerHTML += searchTerm.split(" ").join("<br>");
+  resultsContainer.innerHTML +=
+    '<div class="close-button" onclick="closeSearchResults()">✖</div>';
+}
+
+function closeSearchResults() {
+  var resultsContainer = document.getElementById("searchResults");
+  resultsContainer.style.display = "none";
+}
+
+document.getElementById("search").addEventListener("input", search);
