@@ -49,7 +49,6 @@ function search() {
     var content = element.textContent.toLowerCase();
 
     if (content.includes(searchTerm)) {
-      // Create a new div for each matching result
       var resultItem = document.createElement("div");
       resultItem.textContent = content;
       resultsContainer.appendChild(resultItem);
